@@ -24,4 +24,4 @@ for ln in sys.stdin.readlines():
 	for i,n in enumerate(t):
 		if n.strip() == '':
 			continue
-		print('%d\t %s\t_\t_\t_\t_\t_\t_\t_\t_\t_'%(i+1,n))
+		print('%d\t %s\t_\t_\t_\t_\t_\t_\t_\t_'%(i+1,n))
