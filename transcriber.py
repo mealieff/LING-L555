@@ -36,7 +36,10 @@ for line in fd.readlines():
 for line in sys.stdin.readlines(): 
     # strip any excess newlines
 	line = line.strip('\n')
-    # if there is no tab character, skip the line
+    # print the original 'sent_id' and 'text' lines
+	if '#' in line:
+		print(line)
+  # if there is no tab character, skip the line
 	if '\t' not in line:
 		continue 
    # make a list of the cells in the row
